@@ -5,7 +5,7 @@ const {
   updateCard,
   deleteCard,
 } = require('../Controllers/CardController');
-const authMiddleware = require('../middleware/AuthMiddleware');
+const authMiddleware = require('../Middleware/AuthMiddleware');
 
 const router = express.Router();
 
