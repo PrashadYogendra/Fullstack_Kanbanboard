@@ -19,7 +19,7 @@ const Login = () => {
         password,
       });
 
-      // If login is successful, navigate to the home page or dashboard
+      // If login is successful, access board
       if (response.status === 200) {
         navigate('/boards');
       }
