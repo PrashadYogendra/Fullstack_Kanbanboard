@@ -15,7 +15,7 @@ const Register = () => {
 
     try {
       // Sending POST request to backend
-      const response = await axios.post('https://fullstack-kanbanboard-5.onrender.com/user/auth/register', {
+      const response = await axios.post('https://fullstack-kanbanboard-6.onrender.com/user/auth/register', {
         name,
         email,
         password,
