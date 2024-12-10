@@ -31,7 +31,7 @@ router.post('/login', async (req, res) => {
 
     res.json({ message: 'Login successful', token });
   } catch (error) {
-    console.error('Login Error:', error);  // Log error for inspection
+    console.error('Login Error:', error);  
     res.status(500).json({ error: 'Server error' });
   }
 });
