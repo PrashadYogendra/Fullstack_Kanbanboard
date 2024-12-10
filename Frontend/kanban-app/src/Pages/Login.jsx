@@ -14,7 +14,7 @@ const Login = () => {
 
     try {
       // Sending POST request to backend for login
-      const response = await axios.post('http://localhost:8080/user/auth/login', {
+      const response = await axios.post('https://fullstack-kanbanboard-5.onrender.com/user/auth/login', {
         email,
         password,
       });
